@@ -14,7 +14,6 @@ public class MyMovieListLauncher {
         MovieModel movieModel = new MovieModel();
         IMovieController controller = new Controller(movieModel);
 
-
 //        controller.modelSetAPIKey("96e9f069");
 
         MyMovieList view = new MyMovieList();
