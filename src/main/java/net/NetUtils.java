@@ -102,6 +102,7 @@ public class NetUtils {
      */
     public static void main(String[] args) {
         try {
+            NetUtils.setAPIKey("96e9f069");
             InputStream movieData = NetUtils.getMovieDetails("Stranger Things");
             System.out.println(new String(movieData.readAllBytes()));
         } catch (Exception e) {
